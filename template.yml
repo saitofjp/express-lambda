@@ -27,7 +27,7 @@ Resources:
   HelloWorld:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
+      Handler: server/index.handler
       Runtime: nodejs8.10
       Environment:
         Variables:
